@@ -1,0 +1,162 @@
+div.ICanHasACalendarWidgetListEventData {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  background: white;
+  font-family: arial, sans;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+div.ICanHasACalendarWidgetListEventData div,
+div.ICanHasACalendarWidgetListEventData span,
+div.ICanHasACalendarWidgetListEventData p,
+div.ICanHasACalendarWidgetListEventData a,
+div.ICanHasACalendarWidgetListEventData ol,
+div.ICanHasACalendarWidgetListEventData ul,
+div.ICanHasACalendarWidgetListEventData li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+}
+div.ICanHasACalendarWidgetListEventData ol,
+div.ICanHasACalendarWidgetListEventData ul {
+  list-style: none;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader {
+  color: white;
+  font-size: 14pt;
+  background: #2f569b;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:link {
+  color: white;
+  text-decoration: none;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:visited {
+  color: white;
+  text-decoration: none;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:active {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEventNone {
+  color: black;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 5px;
+  margin: 0;
+  background: white;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent {
+  padding: 5px;
+  margin: 0 0 10px 0;
+  background: white;
+  color: black;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:link {
+  color: blue;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:active {
+  color: red;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:hover {
+  color: red;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventDate {
+  color: white;
+  font-size: 14pt;
+  float: left;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: #231f20;
+  padding: 0;
+  margin: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventSummary {
+  color: black;
+  font-size: 14pt;
+  padding: 0;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventDescription {
+  color: black;
+  font-size: 12pt;
+  padding: 0;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventAddress {
+  color: black;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventMoreLink {
+  color: black;
+  font-size: 12pt;
+  padding: 0;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventClear {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter {
+  color: white;
+  font-size: 10pt;
+  font-style: italic;
+  background: #2f569b;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:link {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:visited {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:active {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter div.ICanHasACalendarWidgetFooterMore {
+  background: #2f569b;
+}
+div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter div.ICanHasACalendarWidgetFooterCredit {
+  background: #2f569b;
+}

@@ -1,0 +1,178 @@
+/**
+ * HasACalendar.co.uk Event List Widget
+ * @license BSD-3 Clause License
+ */
+@headerBackgroundColour: #2f569b;
+@footerBackgroundColour: #2f569b;
+@normalLinkColour: blue;
+@visitedLinkColour: blue;
+@activeLinkColour: red;
+@hoverLinkColour: red;
+@textColour: black;
+@textHeaderColour: white;
+@textFooterColour: white;
+@backGroundColour: white;
+@dateBoxBackground: #231f20;
+@textDateBoxColour: white;
+
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+div.ICanHasACalendarWidgetListEventData {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	background: white;
+	font-family: arial, sans;
+	-webkit-border-radius: 2px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+	border-radius: 2px; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+	/* useful if you don't want a bg color from leaking outside the border: */
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	div, span, p, a, ol, ul, li {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	div.ICanHasACalendarWidgetListEventHeader {
+		color: @textHeaderColour;
+		font-size: 14pt;
+		background: @headerBackgroundColour;
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+		a:link {
+			color: @textHeaderColour;
+			text-decoration: none;
+		}
+		a:visited {
+			color: @textHeaderColour;
+			text-decoration: none;
+		}
+		a:active {
+			color: @textHeaderColour;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: @textHeaderColour;
+			text-decoration: underline;
+		}
+	}
+	div.ICanHasACalendarWidgetListEventEventNone {
+		color: @textColour;
+		font-size: 12pt;
+		font-style: italic;		
+		padding: 5px;
+		margin: 0;
+		background: @backGroundColour;
+	}
+	div.ICanHasACalendarWidgetListEventEvent {
+		padding: 5px;
+		margin: 0 0 10px 0;
+		background: @backGroundColour;
+		color: @textColour;
+		a:link {
+			color: @normalLinkColour;
+			text-decoration: underline;
+		}
+		a:visited {
+			color: @visitedLinkColour;
+			text-decoration: underline;
+		}
+		a:active {
+			color: @activeLinkColour;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: @hoverLinkColour;
+			text-decoration: underline;
+		}
+		div.ICanHasACalendarWidgetListEventDate {
+			color: @textDateBoxColour;
+			font-size: 14pt;
+			float: left;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			background:  @dateBoxBackground;
+			padding: 0;
+			margin: 4px;
+			.rounded-corners (5px);
+		}
+		div.ICanHasACalendarWidgetListEventSummary {
+			color: @textColour;
+			font-size: 14pt;
+			padding: 0;
+			margin: 0;
+		}
+		div.ICanHasACalendarWidgetListEventDescription {
+			color: @textColour;
+			font-size: 12pt;
+			padding: 0;
+			margin: 0;
+		}
+		div.ICanHasACalendarWidgetListEventAddress {
+			color: @textColour;
+			font-size: 12pt;
+			font-style: italic;
+			padding: 0;
+			margin: 0;
+		}
+		div.ICanHasACalendarWidgetListEventMoreLink {
+			color: @textColour;
+			font-size: 12pt;
+			padding: 0;
+			margin: 0;
+		}
+		div.ICanHasACalendarWidgetListEventClear {
+			padding: 0;
+			margin: 0;
+			clear: both;
+		}
+	}
+	div.ICanHasACalendarWidgetListEventFooter {
+		color: @textFooterColour;
+		font-size: 10pt;
+		font-style: italic;		
+		background: @footerBackgroundColour;
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+		a:link {
+			color: @textFooterColour;
+			text-decoration: underline;
+		}
+		a:visited {
+			color: @textFooterColour;
+			text-decoration: underline;
+		}
+		a:active {
+			color: @textFooterColour;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: @textFooterColour;
+			text-decoration: underline;
+		}
+		div.ICanHasACalendarWidgetFooterMore {
+			background: @footerBackgroundColour;
+		}
+		div.ICanHasACalendarWidgetFooterCredit {
+			background: @footerBackgroundColour;
+		}
+	}
+}
+
+
+
