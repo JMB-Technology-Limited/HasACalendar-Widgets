@@ -56,7 +56,10 @@
 		<script src="listevents.js"></script>
 		<script>
 			function showWidget() {
-				var dict = {};
+				// By default the widget will load CSS from HasACalendar servers. Here we don't want that.
+				// We want the local CSS included in the page head used instead so you can see what effect 
+				// your CSS changes will have.
+				var dict = { loadCSS: false };
 				var site = document.getElementById('siteEntry').value;
 				var i1 = document.getElementById('eventCountEntry').value;
 				if (i1) dict.eventCount = i1;
