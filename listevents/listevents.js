@@ -28,7 +28,7 @@ var ICanHasACalendarWidgetListEvent = {
 		} else if (usingOptions.venueID) {
 			moreURL = "http://"+site+".hasacalendar.co.uk/venue/"+usingOptions.venueID;
 		} else if (usingOptions.countryCode) {
-			moreURL = "http://"+site+".hasacalendar.co.uk/country/"+usingOptions.countryCode;
+			moreURL = "http://"+site+".hasacalendar.co.uk/country/"+usingOptions.countryCode.toUpperCase();
 		} else {
 			moreURL = "http://"+site+".hasacalendar.co.uk";
 		}
@@ -80,7 +80,7 @@ var ICanHasACalendarWidgetListEvent = {
 		} else if (usingOptions.venueID) {
 			url = "http://"+site+".api1.hasacalendar.co.uk/venue/"+usingOptions.venueID+"/jsonp";
 		} else if (usingOptions.countryCode) {
-			url = "http://"+site+".api1.hasacalendar.co.uk/country/"+usingOptions.countryCode+"/jsonp";
+			url = "http://"+site+".api1.hasacalendar.co.uk/country/"+usingOptions.countryCode.toUpperCase()+"/jsonp";
 		} else {			
 			url = "http://"+site+".api1.hasacalendar.co.uk/event/jsonp";
 		}
