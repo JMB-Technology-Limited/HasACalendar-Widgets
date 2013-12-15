@@ -1,4 +1,4 @@
-div.ICanHasACalendarWidgetListEventData {
+div.ICanHasACalendarWidgetListEventsData {
   border: 1px solid black;
   padding: 0;
   margin: 0;
@@ -10,13 +10,13 @@ div.ICanHasACalendarWidgetListEventData {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-div.ICanHasACalendarWidgetListEventData div,
-div.ICanHasACalendarWidgetListEventData span,
-div.ICanHasACalendarWidgetListEventData p,
-div.ICanHasACalendarWidgetListEventData a,
-div.ICanHasACalendarWidgetListEventData ol,
-div.ICanHasACalendarWidgetListEventData ul,
-div.ICanHasACalendarWidgetListEventData li {
+div.ICanHasACalendarWidgetListEventsData div,
+div.ICanHasACalendarWidgetListEventsData span,
+div.ICanHasACalendarWidgetListEventsData p,
+div.ICanHasACalendarWidgetListEventsData a,
+div.ICanHasACalendarWidgetListEventsData ol,
+div.ICanHasACalendarWidgetListEventsData ul,
+div.ICanHasACalendarWidgetListEventsData li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,11 +25,11 @@ div.ICanHasACalendarWidgetListEventData li {
   vertical-align: baseline;
   line-height: 1;
 }
-div.ICanHasACalendarWidgetListEventData ol,
-div.ICanHasACalendarWidgetListEventData ul {
+div.ICanHasACalendarWidgetListEventsData ol,
+div.ICanHasACalendarWidgetListEventsData ul {
   list-style: none;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsHeader {
   color: white;
   font-size: 14pt;
   background: #2f569b;
@@ -37,23 +37,23 @@ div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeade
   padding: 5px;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:link {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsHeader a:link {
   color: white;
   text-decoration: none;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:visited {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsHeader a:visited {
   color: white;
   text-decoration: none;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:active {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsHeader a:active {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventHeader a:hover {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsHeader a:hover {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEventNone {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEventNone {
   color: black;
   font-size: 12pt;
   font-style: italic;
@@ -61,29 +61,29 @@ div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent
   margin: 0;
   background: white;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent {
   padding: 5px;
   margin: 0 0 10px 0;
   background: white;
   color: black;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:link {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent a:link {
   color: blue;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:visited {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent a:visited {
   color: blue;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:active {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent a:active {
   color: red;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent a:hover {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent a:hover {
   color: red;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventDate {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsDate {
   color: white;
   font-size: 14pt;
   float: left;
@@ -99,37 +99,37 @@ div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventSummary {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsSummary {
   color: black;
   font-size: 14pt;
   padding: 0 0 4px 0;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventDescription {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsDescription {
   color: black;
   font-size: 12pt;
   padding: 0;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventAddress {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsAddress {
   color: black;
   font-size: 12pt;
   font-style: italic;
   padding: 0;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventMoreLink {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsMoreLink {
   color: black;
   font-size: 12pt;
   padding: 0;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventEvent div.ICanHasACalendarWidgetListEventClear {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsEvent div.ICanHasACalendarWidgetListEventsClear {
   padding: 0;
   margin: 0;
   clear: both;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter {
   color: white;
   font-size: 10pt;
   font-style: italic;
@@ -138,25 +138,25 @@ div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFoote
   padding: 5px;
   margin: 0;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:link {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter a:link {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:visited {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter a:visited {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:active {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter a:active {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter a:hover {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter a:hover {
   color: white;
   text-decoration: underline;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter div.ICanHasACalendarWidgetFooterMore {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter div.ICanHasACalendarWidgetFooterMore {
   background: #2f569b;
 }
-div.ICanHasACalendarWidgetListEventData div.ICanHasACalendarWidgetListEventFooter div.ICanHasACalendarWidgetFooterCredit {
+div.ICanHasACalendarWidgetListEventsData div.ICanHasACalendarWidgetListEventsFooter div.ICanHasACalendarWidgetFooterCredit {
   background: #2f569b;
 }
